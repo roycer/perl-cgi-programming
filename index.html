@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Domotica</title>
+<script src="cargar.js"></script>
+<link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container">
+<div class="page-header">
+<h1>Domotica</h1>
+</div>
+<div class="alert alert-dismissible alert-success" id="datos">
+<!--$-->
+</div>
+<br>
+<div class="col-xs-3">
+<label class="control-label" for="focusedInput">nombre:</label>
+<input class="form-control" type="text" value="foco" name="nombre" id="nombre">
+<label class="control-label" for="focusedInput">codigo:</label>
+<input class="form-control" type="text" value="code" name="codigo" id="codigo">
+<label class="control-label" for="focusedInput">estado:</label>
+<input class="form-control" type="text" value="1" name="estado" id="estado">
+<br>
+<input type="button" value="Guardar" onclick="Load()">
+<input type="button" value="Eliminar" onclick="LoadDel()">
+</div>
+
+</div>
+</body>
+</html>
